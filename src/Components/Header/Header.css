@@ -45,7 +45,7 @@ nav ul li {
     letter-spacing:0.3px;
 }
 .Language button:hover{
-    font-weight:bold;
+    color:var(--primary-light);
 }
 
 

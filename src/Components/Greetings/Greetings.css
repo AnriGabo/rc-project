@@ -1,7 +1,40 @@
-section{
-    padding-block-start:6rem;
+section {
+  padding-block-start: 6rem;
 }
 
-h1{
-    font-size:3.3rem;
+
+h1 {
+  z-index: 1;
+  font-size: 3.3rem;
+  background: linear-gradient(90deg, #c084fc, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+h3 {
+  padding-block-start: 2rem;
+  letter-spacing: 0.2px;
+  font-weight: lighter;
+  color: var(--text-gray);
+}
+
+.ContactUs {
+  padding-block-start: 2rem;
+}
+button {
+  width: 10rem;
+  color: white;
+  font-weight: bold;
+  height: 3rem;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+button:hover {
+  background-color: var(--primary-light);
+  transition: all 0.3s;
+}
+
+
