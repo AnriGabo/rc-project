@@ -1,0 +1,32 @@
+.WhoWeAre{
+    position:relative;
+}
+
+.WhoWeAre::after{
+    content:"";
+    position:absolute;
+    width:70px;
+    height:0.2rem;
+    display:flex;
+    background-color:var(--secondary);
+    transform:translateY(0.3rem);
+}
+
+.Description{
+    max-width:600px;
+    margin-block:3rem;
+} 
+
+.Description{
+    position:relative;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius:10px;
+
+}
+.Description h3{
+    line-height:1.8rem;
+    padding:2rem;
+}
+

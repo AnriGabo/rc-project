@@ -2,7 +2,7 @@ import "./Greetings.css";
 
 export default function Greetings() {
   return (
-    <section>
+    <section id="home">
       <header>
         <h1>
           თქვენი გამოწვევების არსში <br />
@@ -15,13 +15,9 @@ export default function Greetings() {
         </h3>
       </header>
 
-
       <div className="ContactUs">
-        <button type="button">
-          დაგვიკავშირდით
-        </button>
+        <button type="button">დაგვიკავშირდით</button>
       </div>
-
     </section>
   );
 }
