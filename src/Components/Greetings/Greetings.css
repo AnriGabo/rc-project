@@ -6,14 +6,16 @@ header {
 .TeamImage-Container {
   display: flex;
   justify-content: flex-end;
+  position:relative;
+  background-color:red;
 }
 
 .TeamImage-Container .TeamImage {
   max-width: 700px;
   height: auto;
   position: absolute;
-  top: 22%;
-  right: -25%;
+  right:-14rem;
+  top:-13rem;
   z-index: 0;
   filter: brightness(0.7);
 }

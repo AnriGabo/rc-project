@@ -1,0 +1,49 @@
+.Team-Section {
+  padding-block-start: 0;
+}
+
+.Team-Title {
+  position: relative;
+  max-width: 250px;
+}
+.Team-Title::after {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  display: flex;
+  width: 64px;
+  height: 0.2rem;
+  background-color: var(--secondary);
+  transform: translateY(0.2rem);
+}
+
+.Team-Container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width: 1200px;
+  height: auto;
+  justify-content: center;
+  margin-block-start: 3rem;
+  gap: 70px;
+}
+
+.Team-Member {
+  display: flex;
+  justify-content: center;
+  background-color: var(--gray-dark);
+  border-radius: 10px;
+}
+
+.Member {
+  max-width: 13rem;
+  max-height: 13rem;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Member:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 7px 12px rgba(255, 255, 255, 0.15);
+  transform: rotate(6deg) scale(0.99);
+}

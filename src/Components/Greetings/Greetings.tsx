@@ -16,13 +16,14 @@ export default function Greetings() {
           ზედმეტად ცნობისმოყვარე პროგრამისტების გუნდი.
         </h3>
       </header>
+      <div className="TeamImage-Container">
+        <img src={DevTeam} className="TeamImage" alt="Tech Team" />
+      </div>
 
       <div className="ContactUs">
         <button type="button">დაგვიკავშირდით</button>
       </div>
-      <div className="TeamImage-Container">
-        <img src={DevTeam} className="TeamImage" alt="Tech Team" />
-      </div>
+      
     </section>
   );
 }
