@@ -1,8 +1,12 @@
 import "./AbouUs.css";
 
+// Import Images
+
+// import TechTeam from "../../Images/TechTeam.jpg";
+
 export default function AboutUs() {
   return (
-    <section className="AboutUs" id="about">
+    <section className="AboutUs-Section" id="about">
       <header>
         <h2 className="WhoWeAre">ვინ ვართ ჩვენ?</h2>
         <div className="Description">
@@ -13,7 +17,10 @@ export default function AboutUs() {
             ვამარცხებთ. მოგვმართეთ! გაგვესაუბრეთ! დაგვირეკეთ და <span style={{color:"#00f0ff"}}>'ისიამოვნეთ'</span>.
           </h3>
         </div>
-      </header>
+      </header> 
+      <div className="TechImage-Container">
+        {/* <img src={TechTeam} alt="Tech Image" className="TechImage" /> */}
+      </div>
     </section>
   );
 }

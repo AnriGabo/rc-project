@@ -1,8 +1,10 @@
 import "./Greetings.css";
 
+import DevTeam from "../../Images/DevTeam.png"
+
 export default function Greetings() {
   return (
-    <section id="home">
+    <section id="home" className="Section">
       <header>
         <h1>
           თქვენი გამოწვევების არსში <br />
@@ -17,6 +19,9 @@ export default function Greetings() {
 
       <div className="ContactUs">
         <button type="button">დაგვიკავშირდით</button>
+      </div>
+      <div className="TeamImage-Container">
+        <img src={DevTeam} className="TeamImage" alt="Tech Team" />
       </div>
     </section>
   );

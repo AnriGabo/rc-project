@@ -1,7 +1,22 @@
-section {
-  padding-block-start: 6rem;
+
+header {
+  z-index: 1;
 }
 
+.TeamImage-Container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.TeamImage-Container .TeamImage {
+  max-width: 700px;
+  height: auto;
+  position: absolute;
+  top: 22%;
+  right: -25%;
+  z-index: 0;
+  filter: brightness(0.7);
+}
 
 h1 {
   z-index: 1;
@@ -9,6 +24,7 @@ h1 {
   background: linear-gradient(90deg, #c084fc, #22d3ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  max-width: 750px;
 }
 
 h3 {
@@ -16,10 +32,12 @@ h3 {
   letter-spacing: 0.2px;
   font-weight: lighter;
   color: var(--text-gray);
+  max-width: 600px;
 }
 
 .ContactUs {
   padding-block-start: 2rem;
+  width: fit-content;
 }
 button {
   width: 10rem;
@@ -36,5 +54,4 @@ button:hover {
   background-color: var(--primary-light);
   transition: all 0.3s;
 }
-
-
+/* Define Images */
