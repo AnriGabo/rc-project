@@ -2,6 +2,9 @@
     width:100%;
     height:4rem;
     position:sticky;
+    top:0;
+    z-index:1000;
+    background-color:var(--dark);
     display:flex;
     align-items:center;
 }
@@ -9,8 +12,6 @@
 nav{
     display:flex;
     justify-content:flex-start;
-    /* ზევიდან ქვევვით */
-    /* padding-block: ; */
     flex:1;
 }
 

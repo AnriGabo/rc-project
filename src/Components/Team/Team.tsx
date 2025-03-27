@@ -18,7 +18,7 @@ export default function Team() {
             src={microsoft}
             alt="Man looking straight at the camera"
             className="Member"
-            data-link="https://google.com"
+            onClick={() => window.open("https://about.google/", "_blank")}
           />
         </div>
 
@@ -27,7 +27,7 @@ export default function Team() {
             src={twitter}
             alt="Man looking straight at the camera"
             className="Member"
-            data-link="https://google.com"
+            onClick={() => window.open("https://x.com/home", "_blank")}
           />
         </div>
         <div className="Team-Member">
@@ -35,7 +35,7 @@ export default function Team() {
             src={tesla}
             alt="Man looking straight at the camera"
             className="Member"
-            data-link="https://google.com"
+            onClick={() => window.open("https://www.tesla.com/", "_blank")}
           />
         </div>
         <div className="Team-Member">
@@ -43,7 +43,7 @@ export default function Team() {
             src={spotify}
             alt="Man looking straight at the camera"
             className="Member"
-            data-link="https://google.com"
+            onClick={() => window.open("https://www.spotify.com/ge/premium/?ref=account_join_premium_button#plans", "_blank")}
           />
         </div>
         <div className="Team-Member">
@@ -51,7 +51,7 @@ export default function Team() {
             src={WhiteNike}
             alt="Man looking straight at the camera"
             className="Member"
-            data-link="https://google.com"
+            onClick={() => window.open("https://www.nike.com/", "_blank")}
           />
         </div>
         <div className="Team-Member">
@@ -59,7 +59,7 @@ export default function Team() {
             src={Macdonalds}
             alt="Man looking straight at the camera"
             className="Member"
-            data-link="https://google.com"
+            onClick={() => window.open("https://mcdonalds.ge/ge/home", "_blank")}
           />
         </div>
       </div>

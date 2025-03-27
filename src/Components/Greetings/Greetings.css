@@ -7,7 +7,7 @@ header {
   display: flex;
   justify-content: flex-end;
   position:relative;
-  background-color:red;
+  overflow-x: clip;
 }
 
 .TeamImage-Container .TeamImage {

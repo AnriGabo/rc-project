@@ -1,10 +1,16 @@
 import "./App.css";
 
+
+
+
+
 // Components
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Greetings from "./Components/Greetings/Greetings";
 import Header from "./Components/Header/Header";
 import Team from "./Components/Team/Team";
+
+// 
 
 function App() {
   return (
