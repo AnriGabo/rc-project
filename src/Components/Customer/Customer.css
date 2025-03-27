@@ -36,7 +36,7 @@
 
 .Member {
   max-width: 13rem;
-  max-height: 13rem;
+  height: 13rem;
   object-fit: contain;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;

@@ -1,18 +1,55 @@
-.Service-Section{
-    padding-block-start:3rem;
+.Service-Section {
+  padding-block-start: 3rem;
 }
 
-.Our-Service{
-    position:relative;
-    width:fit-content;
+.Our-Service {
+  position: relative;
+  width: fit-content;
 }
 
-.Our-Service::after{
-    content:"";
-    position:absolute;
-    width:70px;
-    height:0.2rem;
-    transform:translateY(0.3rem);
-    background-color:var(--secondary);
-    display:flex;
+.Our-Service::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 0.2rem;
+  transform: translateY(0.3rem);
+  background-color: var(--secondary);
+  display: flex;
+}
+
+.Service-Container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 70px;
+  padding-block-start: 3rem;
+  height: auto;
+  max-width: 1200px;
+}
+
+.Service {
+  background-color: var(--gray-dark);
+  border-radius: 10px;
+  max-width: 18rem;
+  height: 15rem;
+  max-height: 17rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Service:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.BuildingSystem {
+  font-size: 1.4rem;
+  color: var(--primary-light);
+  font-weight: bold;
+  max-width: 280px;
+  padding-inline: 1.3rem;
+}
+.Service p {
+  width: fit-content;
+  padding-inline: 1.3rem;
+  padding-block-start: 1rem;
 }
