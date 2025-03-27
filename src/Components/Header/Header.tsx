@@ -4,14 +4,14 @@ import "./Header.css";
 export default function Header() {
   return (
             <header className="Header">
-             <a href="#" className="logo">RC</a>
+             <a href="#home" className="logo">RC</a>
                 <nav>
                     <ul>
                         <li>
-                            <a href="home">Home</a>
-                            <a href="about">About</a>
-                            <a href="services">Services</a>
-                            <a href="contact">Contact</a>
+                            <a href="#about">About</a>
+                            <a href="#customer">Customer</a>
+                            <a href="#services">Services</a>
+                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
                 </nav>

@@ -14,7 +14,7 @@ header {
   max-width: 700px;
   height: auto;
   position: absolute;
-  right:-14rem;
+  right:-14.5rem;
   top:-13rem;
   z-index: 0;
   filter: brightness(0.7);

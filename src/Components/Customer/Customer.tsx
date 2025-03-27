@@ -1,4 +1,5 @@
-import "./Team.css";
+import "./Customer.css";
+
 
 import microsoft from "../../Images/microsoft.png";
 import tesla from "../../Images/Tesla.png";
@@ -9,7 +10,7 @@ import Macdonalds from "../../Images/MC.png";
 
 export default function Team() {
   return (
-    <section className="Team-Section">
+    <section className="Team-Section" id="customer">
       <h2 className="Team-Title">ჩვენი მომხმარებლები</h2>
 
       <div className="Team-Container">
@@ -43,7 +44,12 @@ export default function Team() {
             src={spotify}
             alt="Man looking straight at the camera"
             className="Member"
-            onClick={() => window.open("https://www.spotify.com/ge/premium/?ref=account_join_premium_button#plans", "_blank")}
+            onClick={() =>
+              window.open(
+                "https://www.spotify.com/ge/premium/?ref=account_join_premium_button#plans",
+                "_blank"
+              )
+            }
           />
         </div>
         <div className="Team-Member">
@@ -59,7 +65,9 @@ export default function Team() {
             src={Macdonalds}
             alt="Man looking straight at the camera"
             className="Member"
-            onClick={() => window.open("https://mcdonalds.ge/ge/home", "_blank")}
+            onClick={() =>
+              window.open("https://mcdonalds.ge/ge/home", "_blank")
+            }
           />
         </div>
       </div>

@@ -23,6 +23,10 @@ body {
   color: var(--text-light);
 }
 
+html{
+  scroll-behavior:smooth;
+}
+
 .bg-grid {
   position: absolute;
   top: 0;

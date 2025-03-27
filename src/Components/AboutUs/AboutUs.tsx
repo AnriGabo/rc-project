@@ -19,7 +19,6 @@ export default function AboutUs() {
         </div>
       </header> 
       <div className="TechImage-Container">
-        {/* <img src={TechTeam} alt="Tech Image" className="TechImage" /> */}
       </div>
     </section>
   );

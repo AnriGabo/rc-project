@@ -1,5 +1,5 @@
 .Team-Section {
-  padding-block-start: 0;
+  padding-block-start:1rem;
 }
 
 .Team-Title {
@@ -11,7 +11,7 @@
   position: absolute;
   top: 2rem;
   display: flex;
-  width: 64px;
+  width: 70px;
   height: 0.2rem;
   background-color: var(--secondary);
   transform: translateY(0.2rem);
@@ -19,7 +19,6 @@
 
 .Team-Container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   max-width: 1200px;
   height: auto;
