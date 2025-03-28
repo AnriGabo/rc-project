@@ -5,7 +5,7 @@ import tracking from "../../Images/Tracking.png";
 
 const Project = () => {
   return (
-    <div className="Our-Project">
+    <div className="Our-Project" id="project">
       <article>
         <header>
           <h2 className="Project-Title">
@@ -21,13 +21,12 @@ const Project = () => {
               className="MainImage"
             />
             <h3 className="Card-Title">Smart Inventory System</h3>
-            <h4 className="Card-Description">
+            <p className="Card-Description">
               საწყობებისა და მარაგების მართვის ჭკვიანი სისტემა.
               სინქრონიზირებულია ERP და მონაცემთა ანალიტიკასთან.
-            </h4>
-            <li className="Card-Technology">React | Node.js | PostgreSQL</li>
+            </p>
+            <p className="Card-Technology">React | Node.js | PostgreSQL</p>
           </div>
-          {/*  */}
           <div className="Card">
             <img
               src={tracking}
@@ -35,11 +34,11 @@ const Project = () => {
               className="MainImage"
             />
             <h3 className="Card-Title">Delivery App</h3>
-            <h4 className="Card-Description">
+            <p className="Card-Description">
             შეკვეთების მონიტორინგის და მიტანის მართვის პლატფორმა.
             real-time ტრეკინგი და სწრაფი კურიერული სერვისი.
-            </h4>
-            <li className="Card-Technology">React Native, Node.js, MongoDB</li>
+            </p>
+            <p className="Card-Technology">React Native, Node.js, MongoDB</p>
           </div>
         </div>
       </article>
