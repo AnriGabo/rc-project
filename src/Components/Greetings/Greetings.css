@@ -24,7 +24,7 @@ h1 {
   z-index: 1;
   font-size: 3.3rem;
   background: linear-gradient(90deg, #c084fc, #22d3ee);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   max-width: 750px;
 }

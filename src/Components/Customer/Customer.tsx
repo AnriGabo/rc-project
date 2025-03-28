@@ -1,6 +1,5 @@
 import "./Customer.css";
 
-
 import microsoft from "../../Images/microsoft.png";
 import tesla from "../../Images/Tesla.png";
 import twitter from "../../Images/twitter.png";
@@ -17,7 +16,7 @@ export default function Team() {
         <div className="Team-Member">
           <img
             src={microsoft}
-            alt="Man looking straight at the camera"
+            alt="Official Microsoft logo"
             className="Member"
             onClick={() => window.open("https://about.google/", "_blank")}
           />
@@ -26,7 +25,7 @@ export default function Team() {
         <div className="Team-Member">
           <img
             src={twitter}
-            alt="Man looking straight at the camera"
+            alt="Official Twitter logo"
             className="Member"
             onClick={() => window.open("https://x.com/home", "_blank")}
           />
@@ -34,7 +33,7 @@ export default function Team() {
         <div className="Team-Member">
           <img
             src={tesla}
-            alt="Man looking straight at the camera"
+            alt="Official Tesla logo"
             className="Member"
             onClick={() => window.open("https://www.tesla.com/", "_blank")}
           />
@@ -42,7 +41,7 @@ export default function Team() {
         <div className="Team-Member">
           <img
             src={spotify}
-            alt="Man looking straight at the camera"
+            alt="Official Spotify logo"
             className="Member"
             onClick={() =>
               window.open(
@@ -55,7 +54,7 @@ export default function Team() {
         <div className="Team-Member">
           <img
             src={WhiteNike}
-            alt="Man looking straight at the camera"
+            alt="Official Nike logo"
             className="Member"
             onClick={() => window.open("https://www.nike.com/", "_blank")}
           />
@@ -63,7 +62,7 @@ export default function Team() {
         <div className="Team-Member">
           <img
             src={Macdonalds}
-            alt="Man looking straight at the camera"
+            alt="Official Macdonalds logo"
             className="Member"
             onClick={() =>
               window.open("https://mcdonalds.ge/ge/home", "_blank")
