@@ -45,12 +45,13 @@ main {
   z-index: 1;
 }
 
-.All {
-  padding-inline: 6rem;
-  max-width: 1200px;
-  margin-inline: auto;
-}
 
+.AppWrapper{
+  padding-inline:6rem;
+  margin-inline:auto;
+  max-width:1200px;
+}
 section {
   padding-block-start: 6rem;
 }
+

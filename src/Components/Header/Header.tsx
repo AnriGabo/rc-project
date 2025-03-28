@@ -12,7 +12,7 @@ export default function Header() {
                             <a href="#customer">Customer</a>
                             <a href="#service">Services</a>
                             <a href="#project">Project</a>
-                            <a href="#contact">Contact</a>
+                            <a href="#footer">Contact</a>
                 
                         </li>
                     </ul>

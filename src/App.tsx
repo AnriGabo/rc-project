@@ -7,12 +7,13 @@ import Header from "./Components/Header/Header";
 import Team from "./Components/Customer/Customer";
 import Services from "./Components/Services/Services";
 import Project from "./Components/Projects/Project";
+import Footer from "./Components/Footer/Footer";
 
 
 
 function App() {
   return (
-    <div className="All">
+    <div className="AppWrapper ">
       <div className="bg-grid" />
       <Header />
       <main>
@@ -22,7 +23,10 @@ function App() {
         <Services />
         <Project />
       </main>
-      {/* <footer></footer> */}
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

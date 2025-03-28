@@ -9,7 +9,7 @@ const Project = () => {
       <article>
         <header>
           <h2 className="Project-Title">
-            ჩვენი წარმატებული <br></br>პროექტები
+           პროექტები
           </h2>
         </header>
 
@@ -35,8 +35,8 @@ const Project = () => {
             />
             <h3 className="Card-Title">Delivery App</h3>
             <p className="Card-Description">
-            შეკვეთების მონიტორინგის და მიტანის მართვის პლატფორმა.
-            real-time ტრეკინგი და სწრაფი კურიერული სერვისი.
+              შეკვეთების მონიტორინგის და მიტანის მართვის პლატფორმა. real-time
+              ტრეკინგი და სწრაფი კურიერული სერვისი.
             </p>
             <p className="Card-Technology">React Native, Node.js, MongoDB</p>
           </div>
@@ -47,4 +47,3 @@ const Project = () => {
 };
 
 export default Project;
-
