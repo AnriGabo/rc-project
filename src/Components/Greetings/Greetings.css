@@ -1,12 +1,7 @@
-
-header {
-  z-index: 1000;
-}
-
 .TeamImage-Container {
   display: flex;
   justify-content: flex-end;
-  position:relative;
+  position: relative;
   overflow-x: clip;
 }
 
@@ -14,8 +9,8 @@ header {
   max-width: 700px;
   height: auto;
   position: absolute;
-  right:-14.5rem;
-  top:-13rem;
+  right: -14.5rem;
+  top: -13rem;
   z-index: 0;
   filter: brightness(0.7);
 }
@@ -58,9 +53,19 @@ button:hover {
 }
 /* Define Images */
 
+@media (max-width: 950px) {
+  .TeamImage {
+    display: none;
+  }
+}
 
-@media (max-width:950px){
-  .TeamImage{
-    display:none;
+@media (max-width: 520px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 421px) {
+  h1 {
+    font-size: 1.5rem;
   }
 }

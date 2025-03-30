@@ -53,3 +53,16 @@
   padding-inline: 1.3rem;
   padding-block-start: 1rem;
 }
+
+
+@media (max-width:445px){
+  .BuildingSystem{
+    font-size:1rem;
+  }
+}
+
+@media (max-width:397px){
+ .Service p{
+  font-size:0.9rem;
+ }
+}

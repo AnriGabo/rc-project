@@ -25,6 +25,10 @@ body {
   color: var(--text-light);
 }
 
+header {
+  z-index: 1000;
+}
+
 html{
   scroll-behavior:smooth;
 }
