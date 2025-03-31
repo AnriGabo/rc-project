@@ -13,9 +13,13 @@ import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className="AppWrapper ">
+    <div>
+ <div className="AppWrapper ">
       <div className="bg-grid" />
+      <header>
       <Header />
+      </header>
+      
       <main>
         <Greetings />
         <AboutUs />
@@ -24,10 +28,12 @@ function App() {
         <Project />
       </main>
 
-      <footer>
+    </div>
+    <footer>
         <Footer />
       </footer>
     </div>
+   
   );
 }
 

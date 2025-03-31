@@ -19,6 +19,7 @@
   margin: 0;
   /* Google Fonts */
   font-family: "Open Sans", sans-serif;
+  
 }
 body {
   background-color: var(--dark);
@@ -31,6 +32,13 @@ header {
 
 html{
   scroll-behavior:smooth;
+}
+
+html,body, #root{
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+    width:100%;
 }
 
 .bg-grid {

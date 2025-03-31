@@ -1,91 +1,94 @@
-.Footer{
-    margin-block-start:5rem;
-    background-color:var(--gray-dark);
-    height:7rem;
-    border-radius:5px;
-    max-width:1200px;
+.Footer {
+  position: static;
+  bottom: 0;
+  left:0;
+  margin-block-start: 5rem;
+  background-color: var(--gray-dark);
+  height:8.3rem;
+  border-radius: 5px; 
 }
 
 .Footer-Container{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
-    padding-inline:3rem;
-    height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  max-width:1200px;
+  height:100%;
+  margin-inline:auto;
+  padding-inline:6rem;
 }
 
-
-
-.Footer-PersonalData{
-    display:flex;
-    align-items:center;
-    width:max-content;
-}
-.Social-Contact-Email{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-}
 .Social-Contact-Links{
-    display:flex;
-    flex-direction:column;
-    align-items:flex-end;
-    justify-content:center;
+  display:flex;
+  flex-direction:column;
+  padding-inline-start:5rem;
+}
+
+.Social-Contact-Links p {
+  font-size: 1.1rem;
+  color: var(--secondary);
+  font-weight: bold;
+  padding-block-start: 0.3rem;
+}
+
+.Social-Contact-Links a {
+  text-decoration: none;
+  color: var(--white);
+  padding: 0.2rem;
+}
+
+.Social-Contact-Email{
+  display:flex;
+  flex-direction:column;
+}
+
+.Social-Contact-Email p {
+  color: var(--secondary);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 1.1rem;
+  padding-inline-start:5rem;
+}
+
+.Social-Contact-Email a {
+  padding: 1rem;
+  text-decoration: none;
+  color: var(--white);
+  padding-inline-start:5rem;
+}
+
+.ContactEmail {
+  position: relative;
+}
+.ContactEmail::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  top: 2.5rem;
+  width: 50px;
+  height: 0.2rem;
+  background-color: var(--white);
 }
 
 
-
-.Social-Contact-Email p{
-    color:var(--secondary);
-    font-weight:bold;
-    position:relative;
-    letter-spacing:0.5px;
-    font-size:1.1rem;
-    transform:translateX(-0.8rem) translateY(-0.2rem);
+.FacebookIcon {
+  color: #1877f2;
+  transform: translateX(-0.4rem) translateY(0.2rem);
 }
-
-.Social-Contact-Email a{
-    padding:1rem;
-    text-decoration:none;
-    color:var(--white);
-}
-
-.ContactEmail{
-    position:relative;
-}
-.ContactEmail::after{
-    content: "";
-    position:absolute;
-    display:flex;
-    top:2.5rem;
-    height:auto;
-    width:50px;
-    height:0.2rem;
-    background-color:var(--white);
-}
-
-.Social-Contact-Links p{
-    font-size:1.1rem;
-    color:var(--secondary);
-    font-weight:bold;
-    padding-block-start:0.3rem;
-}
-
-.Social-Contact-Links a{
-    text-decoration:none;
-    color:var(--white);
-    padding:0.2rem;
-}
-
-.FacebookIcon{
-    color:#1877F2;
-    transform:translateX(-0.4rem) translateY(0.2rem);
-}
-.InstagramIcon{
-    color:#1877F2;
-    transform:translateX(-0.3rem) translateY(0.3rem);
+.InstagramIcon {
+  color: #1877f2;
+  transform: translateX(-0.3rem) translateY(0.3rem);
 }
 
 
-
-
+@media (max-width:510px){
+  .Social-Contact-Links p{
+    font-size:0.8rem;
+  }
+  .Social-Contact-Links .InstagramIcon{
+    display:none;
+  }
+  .Social-Contact-Links .FacebookIcon{
+    display:none;
+  }
+}
