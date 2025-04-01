@@ -1,0 +1,37 @@
+.aside{
+    position:fixed;
+    top:0;
+    left:0;
+    position:fixed;
+    width:230px;
+    height:100vh;
+    background-color:rgba(17, 25, 38, 1);
+    padding:30px 14px 30px 14px;
+}
+
+.SideBar-Component{
+    display:flex;
+    flex-direction:column;
+}
+.SideBar-Component nav{
+    display:flex;
+    justify-content:flex-end;
+    padding-block-start:1rem;
+}
+
+.SideBar-Component  a{
+    display:flex;
+}
+
+.LanguageSwitcher{
+    padding-block-start:1rem;
+    display: flex;
+    /* background-color:red; */
+}
+.LanguageSwitcher button{
+    background-color:transparent;
+}
+
+.LanguageSwitcher button:hover{
+    color:var(--secondary);
+}

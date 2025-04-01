@@ -8,6 +8,7 @@ import Team from "./Components/Customer/Customer";
 import Services from "./Components/Services/Services";
 import Project from "./Components/Projects/Project";
 import Footer from "./Components/Footer/Footer";
+import SideBar from "./Components/SideBar/SideBar";
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Team />
         <Services />
         <Project />
+        <SideBar />
       </main>
 
     </div>
