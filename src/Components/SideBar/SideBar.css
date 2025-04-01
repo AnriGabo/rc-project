@@ -1,63 +1,65 @@
-.aside{
-    position:fixed;
-    top:4rem;
-    left:0rem;
-    position:fixed;
-    width:230px;
-    height:100vh;
-    background-color:var(--dark);
-    padding:30px 14px 30px 14px;
-    z-index:1000;
+.aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 230px;
+  height: 100vh;
+  background-color: var(--dark);
+  padding: 30px 14px 30px 14px;
+  z-index: 1000;
 }
-.logo2{
-    font-size: 1.8rem;
-	font-weight: 700;
-	color: var(--primary-light);
-    text-decoration:none;
-}
-
-.SideBar-Component{
-    display:flex;
-    flex-direction:column;
-}
-.SideBar-Component nav{
-    display:flex;
-    justify-content:flex-end;
-    padding-block-start:1rem;
+.logo2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-light);
+  text-decoration: none;
 }
 
-.SideBar-Component  a{
-    display:flex;
+.SideBar-Component {
+  display: flex;
+  flex-direction: column;
+  padding-block-start:2.5rem;
+}
+.SideBar-Component nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-block-start: 1rem;
 }
 
-.LanguageSwitcher{
-    padding-block-start:1rem;
-    display: flex;
+.SideBar-Component a {
+  display: flex;
 }
 
-
-.LanguageSwitcher button{
-    background-color:transparent;
+.LanguageSwitcher {
+  padding-block-start: 1rem;
+  display: flex;
 }
 
-.LanguageSwitcher button:hover{
-    color:var(--secondary);
+.LanguageSwitcher button {
+  background-color: transparent;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:var(--white);
 }
 
+.LanguageSwitcher button:hover {
+  color: var(--secondary);
+}
 
 /* 800 პიქსელს რო აცდება უკვე უნდა გაითიშოს, დაროცა ჩამოცდება იგივე ლოგიკა გაგრძელდეს */
 @media (min-width: 800px) {
-    .aside {
-       display: none !important;
-    }
- }
-
-.hide{
-    display:none;
-}
-.show{
-    display:block;
+  .aside {
+    display: none !important;
+  }
 }
 
-
-
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}

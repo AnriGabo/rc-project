@@ -8,10 +8,10 @@ type DefineToggele = {
 export default function SideBar({ isOpened,onClose }: DefineToggele) {
   return (
     <aside  className={isOpened ? "aside show" : "aside hide"}>
+      <div className="SideBar-Component">
       <a href="#home" className="logo2">
         RC
       </a>
-      <div className="SideBar-Component">
         <nav>
           <ul>
             <li onClick={onClose}>
