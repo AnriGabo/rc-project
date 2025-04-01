@@ -21,7 +21,7 @@ export default function Greetings() {
       </div>
 
       <div className="ContactUs">
-        <button type="button">დაგვიკავშირდით</button>
+        <button type="button"><a href="mailto:info@rc.com.ge" target="_blank">დაგვიკავშირდით</a></button>
       </div>
       
     </section>

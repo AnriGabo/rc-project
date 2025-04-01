@@ -36,16 +36,19 @@ h3 {
   padding-block-start: 2rem;
   width: fit-content;
 }
-button {
+button{
   width: 10rem;
-  color: white;
-  font-weight: bold;
   height: 3rem;
   background-color: var(--primary);
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.ContactUs button a{
+  color: white;
+  font-weight: bold;
   letter-spacing: 0.5px;
+  text-decoration:none;
 }
 button:hover {
   background-color: var(--primary-light);
