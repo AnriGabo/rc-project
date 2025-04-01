@@ -1,7 +1,7 @@
 import "./Project.css";
 
 import SmartSystem from "../../Images/SmartSystem.png";
-import tracking from "../../Images/Tracking.png";
+import tracking from "../../Images/tracking.png";
 
 const Project = () => {
   return (
