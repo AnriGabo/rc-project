@@ -67,6 +67,11 @@ button:hover {
     display: none;
   }
 }
+@media (max-width:770px){
+  .Section{
+    padding-block-start:1.8rem;
+  }
+}
 
 @media (max-width: 520px) {
   h1 {
