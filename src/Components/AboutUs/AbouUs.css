@@ -33,6 +33,7 @@
 .Description h3{
     line-height:1.8rem;
     padding:2rem;
+    word-wrap: break-word;
 }
 
 @media (max-width:455px){
