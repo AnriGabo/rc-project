@@ -50,3 +50,25 @@ nav ul li {
 }
 
 
+
+.burger{
+    display:none;
+}
+
+@media (max-width:800px){
+    nav{
+        display:none;
+    }
+    .Language{
+        display:none;
+    }
+    .logo{
+        display:none;
+    }
+    .burger{
+        display:block;
+    }
+   
+}
+
+

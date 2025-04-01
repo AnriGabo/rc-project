@@ -1,26 +1,35 @@
 import "./SideBar.css";
 
-export default function SideBar() {
+type DefineToggele = {
+  isOpened: boolean;
+  onClose: () => void ;
+};
+
+export default function SideBar({ isOpened,onClose }: DefineToggele) {
   return (
-    <aside className="aside">
-      <a href="#home" className="logo">
+    <aside  className={isOpened ? "aside show" : "aside hide"}>
+      <a href="#home" className="logo2">
         RC
       </a>
       <div className="SideBar-Component">
         <nav>
-            <ul>
-                <li>
-                    <a href="#about">About</a>
-                    <a href="#customer">Customer</a>
-                    <a href="#service">Services</a>
-                    <a href="#project">Project</a>
-                    <a href="#footer">Contact</a>
-                </li> 
-            </ul>
+          <ul>
+            <li onClick={onClose}>
+              <a href="#about" > About</a>
+              <a href="#customer">Customer</a>
+              <a href="#service">Services</a>
+              <a href="#project">Project</a>
+              <a href="#footer">Contact</a>
+            </li>
+          </ul>
         </nav>
         <div className="LanguageSwitcher">
-            <button type="button" className="Geo">ქართული</button>
-            <button type="button" className="Eng">English</button>
+          <button type="button" className="Geo">
+            ქართული
+          </button>
+          <button type="button" className="Eng">
+            English
+          </button>
         </div>
       </div>
     </aside>

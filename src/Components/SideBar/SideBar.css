@@ -1,12 +1,19 @@
 .aside{
     position:fixed;
-    top:0;
-    left:0;
+    top:4rem;
+    left:0rem;
     position:fixed;
     width:230px;
     height:100vh;
-    background-color:rgba(17, 25, 38, 1);
+    background-color:var(--dark);
     padding:30px 14px 30px 14px;
+    z-index:1000;
+}
+.logo2{
+    font-size: 1.8rem;
+	font-weight: 700;
+	color: var(--primary-light);
+    text-decoration:none;
 }
 
 .SideBar-Component{
@@ -26,8 +33,9 @@
 .LanguageSwitcher{
     padding-block-start:1rem;
     display: flex;
-    /* background-color:red; */
 }
+
+
 .LanguageSwitcher button{
     background-color:transparent;
 }
@@ -35,3 +43,21 @@
 .LanguageSwitcher button:hover{
     color:var(--secondary);
 }
+
+
+/* 800 პიქსელს რო აცდება უკვე უნდა გაითიშოს, დაროცა ჩამოცდება იგივე ლოგიკა გაგრძელდეს */
+@media (min-width: 800px) {
+    .aside {
+       display: none !important;
+    }
+ }
+
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}
+
+
+
